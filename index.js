@@ -2,6 +2,14 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
+			<Friend
+				name="Coco"
+				hobbies={['digging', 'swimming', 'sleeping', 'eating']}
+			/>
+			<Friend
+				name="Dubu"
+				hobbies={['looking', 'swimming', 'Cuddling', 'hugging']}
+			/>
 			<Hello 
 				to="Ringo" 
 				from="Paul"
